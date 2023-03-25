@@ -1,0 +1,35 @@
+.navigation {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(to right, black, rgba(74, 37, 5, 0.656));
+}
+
+#nav-logo {
+  height: 80px;
+  width: auto;
+  margin-left: 100px;
+}
+
+.nav-items {
+  list-style: none;
+  display: flex;
+  margin-right: 100px;
+}
+
+.nav-item {
+  padding: 20px;
+}
+
+.nav-item:hover {
+  background-color: #d3d3d36f;
+}
+
+.nav-link {
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  color: black;
+}
